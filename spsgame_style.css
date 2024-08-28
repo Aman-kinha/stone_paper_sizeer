@@ -1,0 +1,151 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    transition: background-color 5s;
+    background:gold;
+}
+.maincont{
+    height: 500px;
+    width: 1000px;
+    /* border: 0.2mm solid red; */
+    position: relative;
+    left: 130px;
+    top: 60px;
+    background: #ff0084;
+    transition: 10s;
+    background: violet;
+    box-shadow: 10px 10px 5px violet;
+    box-shadow: 10px 10px 10px gold inset,10px 10px 10px violet;
+}
+/* Scores  */
+.yscore{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    border: .2mm solid black;
+    top: 112px;
+    left: 64%;
+    background-image: radial-gradient(white,grey);
+}
+.cscore{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    border: .2mm solid black;
+    top: 40px;
+    left: 32%;
+    background-image: radial-gradient(white,grey);
+}
+
+/* Score Heading */
+#ysti{
+    position: relative;
+    top: 20px;
+}
+#csti{
+    position: relative;
+    top: 20px;
+}
+
+/* Buttons */
+
+.button1{
+    position: relative;
+    top: 106px;
+    left: 44%;
+}
+.button2{
+    position: relative;
+    top: 70px;
+    left: 50%;    
+}
+.button3{ 
+    position: relative;
+    top: 36px;
+    left: 56%;    
+}
+
+/* Button ID */
+#b1{
+    width: 35px;
+    height: 35px;
+    background-image: radial-gradient(white,rgb(255, 0, 106));
+}
+#b2{
+    width: 35px;
+    height: 35px;
+    background-image: radial-gradient(white,rgb(255, 0, 106)); 
+}
+#b3{
+    width: 35px;
+    height: 35px;
+    background-image: radial-gradient(white,rgb(255, 0, 106));
+}
+.rs{
+    border: 0.2mm solid red;
+    height: 70px;
+    background-image: radial-gradient(white,rgb(0, 195, 255));
+    width: 167px;
+    position: relative;
+    top: 91px;
+    left: 438px;
+    text-align: center;
+    justify-content: center;
+}
+.r{
+    position: relative;
+    top: 25px;
+    font-size: larger;
+}
+.ys{
+    position: relative;
+    top: 5px;
+    left: 23px;
+    font-size: 50px;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 0, 17), 0 0 5px darkblue;
+}
+.cs{
+    position: relative;
+    top: 5px;
+    left: 23px;
+    font-size: 50px;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 0, 17), 0 0 5px darkblue;
+}
+.rs:hover{
+    opacity: 50%;
+}
+.maincont:hover{
+    opacity: 90%;
+}
+#b1:hover{
+    background-image: radial-gradient(grey,rgb(0, 255, 166));
+    /* opacity: 60%; */
+}
+#b3:hover{
+    /* opacity: 60%; */
+    background-image: radial-gradient(grey,rgb(0, 255, 166));
+}
+#b2:hover{
+    background-image: radial-gradient(grey,rgb(0, 255, 166));
+    /* opacity: 60%; */
+}
+.yscore:hover{
+    background-image: radial-gradient(white,black);
+}
+.cscore:hover{
+    background-image: radial-gradient(white,black);
+}
+.mute{
+    position: relative;
+    top: 110px;
+    left: 930px;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+.mute:hover{
+    opacity: 80%;
+}
